@@ -1,0 +1,69 @@
+*{
+  font-family: sans-serif;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "statistics1 timer1"
+    "food1  team1"
+  ;
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  top: 14vh;
+  left: 14.3vh;
+  transform: translate(-50%, -50%);
+}
+
+#team,
+#statistics,
+#food,
+#timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+
+}
+
+#team img,
+#statistics img,
+#food img,
+#timer img {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+#team p,
+#statistics p,
+#food p,
+#timer p {
+  font-size: 120%;
+  margin: 0;
+  color: white;
+}
+
+#logo {
+  max-width: 70%;
+  height: auto;
+  margin: 5px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+#leave {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin-top: 22vh;
+  margin-left: 10.3vh;
+  border-radius: 30%;
+  border: 5px solid white;
+  
+}

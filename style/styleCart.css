@@ -1,0 +1,206 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../style/Sportfield-Varsity-Grunge.ttf);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+
+h1 {
+    font-family: myFirstFont;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  img {
+    width: 20px;
+  }
+  
+
+button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    width: 60%;
+    table-layout: fixed;
+    border-radius: 10px;
+    margin: auto;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+
+}
+
+
+
+button img {
+    margin-left: 82%;
+    margin-top: 30%;
+}
+
+#b1 text {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    top: 78%;
+    left: 13.5%;
+}
+
+#b2 text {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    top: 78%;
+    left: 49%;
+}
+
+#b3 text {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    top: 78%;
+    left: 82%;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 34%;
+    left: -7.5%;
+}
+
+
+.grid_container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    padding: 10px;
+}
+
+.small_btn {
+    width: 80px;
+    height: 33px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "button1 button2"
+        "button3 button3";
+    grid-template-columns: repeat(3, 1fr);
+    /* Defines 3 equal-width columns */
+    grid-column-gap: 10px;
+    /* Gap between columns */
+    grid-row-gap: 10px;
+    /* Gap between rows */
+
+    grid-gap: 5px;
+    padding-left: 14%;
+    padding-top: 40%;
+}
+
+
+
+.grid-item:nth-child(1) {
+    grid-area: button1;
+}
+
+.grid-item:nth-child(2) {
+    grid-area: button2;
+}
+
+.grid-item:nth-child(3) {
+    grid-area: button3;
+}
+
+#cart {
+    text-align: left;
+    list-style-type: none;
+    *display: inline;
+    zoom: 1;
+    float: left;
+    position: absolute;
+    top: 9%;
+    left: -13%;
+    font-size: 110%;
+}
+
+#prices {
+    text-align: left;
+    list-style-type: none;
+    *display: inline;
+    zoom: 1;
+    float: left;
+    position: absolute;
+    top: 9%;
+    left: 38%;
+    font-size: 110%;
+}
+
+
+#total {
+    font-size: 100%;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    text-align: center;
+}
+
+#help {
+    font-size: 96%;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#arrow_up {
+    position: absolute;
+    top: -15%;
+    left: 95%;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#arrow_down {
+    position: absolute;
+    top: 35%;
+    left: 95%;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#remove {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+li {
+    font-size: 85%;
+    margin-bottom: 6%;
+    z-index: 1;
+}
+
+#prices > li{
+    font-size: 85%;
+    margin-bottom: 8%;
+    z-index: 1
+}
+    
+    
