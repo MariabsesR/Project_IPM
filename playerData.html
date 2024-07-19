@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="style/styleBackground.css">
+    <link rel="stylesheet" href="style/playerDataStyle.css">
+    <script src="js/playerData.js"></script>
+    <script src="js/getCurrentStat.js"></script>
+
+</head>
+
+
+
+<body>
+
+    <div class="tasks">
+
+        <p id="Title">Welcome</p>
+        <p id="list0">Here are your tasks!</p>
+        <p id="list1">1 - Show your QR when you enter the Game</p>
+        <p id="list2">2 - Check how much time is left before the Game</p>
+        <p id="list3">3 - Check who is playing for each team</p>
+        <p id="list4">4 - Choose a player from a Team and share on Twitter his information</p>
+        <p id="list5">5 - At half time check who scored in the first part of the Game</p>
+        <p id="list6">6 - Choose a statistic from the game, watch it(replay), and share it on Twitter</p>
+        <p id="list7">7 - In the second part of the Game order some food or beverages</p>
+        
+    </div>
+    <div class="info">
+
+        <p id="Title">Information</p>
+        <p id="list0">To visualize the app correctly</p>
+        <p id="list1">1 - Utilize display resolution of 1920x1080</p>
+        <p id="list2">2 - The scale of the display must be 100%</p>
+        <p id="list3">3 - Open in Chrome</p>
+
+
+    </div>
+    <div class="bg-image"></div>
+    <div class="bg-border">
+       <img src="images/ttIcon.png" id="tt" onclick="shareOnTT()"> <p id="share">share</p>
+        <h2>Player Info </h2>
+       
+        <div id="info2">
+           
+            
+            
+         
+        </div>
+
+        <img Title="BackArrow" src="images/back-arrow.png" alt="back-arrow"
+        onclick="history.back()" id="leave">
+
+    </div>
+
+
+</body>
+
+</html>

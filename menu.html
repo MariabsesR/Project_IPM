@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style/styleBackground.css">
+  <link rel="stylesheet" href="style/styleMenu.css">
+  <script src="js/menu.js"></script>
+  <script src="js/getCurrentStat.js"></script>
+
+</head>
+
+<body>
+
+    <div class="tasks">
+      
+        <p id="Title">Welcome</p>
+        <p id="list0">Here are your tasks!</p>
+        <p id="list1">1 - Show your QR when you enter the Game</p>
+        <p id="list2">2 - Check how much time is left before the Game</p>
+        <p id="list3">3 - Check who is playing for each team</p>
+        <p id="list4">4 - Choose a player from a Team and share on Twitter his information</p>
+        <p id="list5">5 - At half time check who scored in the first part of the Game</p>
+        <p id="list6">6 - Choose a statistic from the game, watch it(replay), and share it on Twitter</p>
+        <p id="list7">7 - In the second part of the Game order some food or beverages</p>
+        
+    </div>
+<div class="info">
+    
+    <p id="Title">Information</p>
+    <p id="list0">To visualize the app correctly</p>
+    <p id="list1">1 - Utilize display resolution of 1920x1080</p>
+    <p id="list2">2 - The scale of the display must be 100%</p>
+    <p id="list3">3 - Open in Chrome</p>
+
+    
+</div>
+  <div class="bg-image"></div>
+  <div class="bg-border">
+
+    <div class="app">
+
+      <statistics1>
+        <div id=statistics>
+          <p style="color:aliceblue"> Statistics</p><img id="logo" src="images/cards.png" aria-hidden="true"
+            onclick="window.location.href = 'statistics.html'" alt="statistics">
+        </div>
+      </statistics1>
+
+      <timer1>
+        <div id=timer>
+          <p style="color:aliceblue"> Timer</p><img id="logo" src="images/timer.jpg" aria-hidden="true"
+            onclick="window.location.href = 'timer.html'" alt="timer">
+        </div>
+      </timer1>
+
+      <food1>
+        <div id=food>
+          <p style="color:aliceblue;" id="foodText"> Order</p><img id="logo" src="images/food.png" aria-hidden="true"
+            onclick="window.location.href = 'foodmenu.html'" alt="food">
+        </div>
+      </food1>
+
+      <team1>
+        <div id=team>
+          <p style="color:aliceblue "> Teams</p><img id="logo" src="images/team.png" aria-hidden="true"
+            onclick="window.location.href = 'teamSquads.html'" alt="teams">
+        </div>
+      </team1>
+    </div>
+
+      <leave>
+        <div>
+          <img id="leave" src="images/exit_door.png" aria-hidden="true" onclick="window.location.href = 'leave.html'" alt="leave">
+        </div>
+      </leave>
+  </div>
+  
+
+
+
+</body>
+
+</html>

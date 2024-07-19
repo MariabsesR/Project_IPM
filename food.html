@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style/styleBackground.css">
+    <link rel="stylesheet" href="style/styleEmpty.css">
+    <script src="js/cartbutton.js"></script>
+    <script src="js/getCurrentStat.js"></script>
+
+</head>
+
+
+
+<body>
+  
+    <div class="tasks">
+      
+        <p id="Title">Welcome</p>
+        <p id="list0">Here are your tasks!</p>
+        <p id="list1">1 - Show your QR when you enter the Game</p>
+        <p id="list2">2 - Check how much time is left before the Game</p>
+        <p id="list3">3 - Check who is playing for each team</p>
+        <p id="list4">4 - Choose a player from a Team and share on Twitter his information</p>
+        <p id="list5">5 - At half time check who scored in the first part of the Game</p>
+        <p id="list6">6 - Choose a statistic from the game, watch it(replay), and share it on Twitter</p>
+        <p id="list7">7 - In the second part of the Game order some food or beverages</p>
+        
+    </div>
+<div class="info">
+    
+    <p id="Title">Information</p>
+    <p id="list0">To visualize the app correctly</p>
+    <p id="list1">1 - Utilize display resolution of 1920x1080</p>
+    <p id="list2">2 - The scale of the display must be 100%</p>
+    <p id="list3">3 - Open in Chrome</p>
+
+    
+</div>
+
+    <div class="bg-image"></div>
+
+    <div class="bg-border">
+        <h1>Food</h1>
+        <br>
+
+        <div id = "container">
+            <div id = "first">
+              <div class = "grid-container">
+                <div class="grid-item">
+                   <a href="burgerjoice.html">
+                  <button type = "button" id = "b1" class = "small_btn"><img width="70" title="Burger" src="images/hamburger.png" alt="Burger" ></button>
+                </a>
+                </div>
+                <div class="grid-item">
+                    <a href="pizzajoice.html">
+                  <button type = "button" id = "b2" class = "small_btn"><img width="70" title="Pizza" src="images/pizza.png" alt="Pizza" ></button>
+                </a>
+                </div>
+                <div class="grid-item">
+                    <a href="hotdog.html">
+                  <button type = "button" id = "b3" class = "small_btn"><img width="70" title="Hotdog" src="images/hotdog.png" alt="HotDog" ></button>
+                </a>
+                </div>
+              </div>
+            </div>
+    </div>
+    <img Title="BackArrow" src="images/back-arrow.png" alt="back-arrow"
+            onclick="window.location.href = 'foodmenu.html'">
+            <img id="Cart" Title="Cart" src="images/carrinho-carrinho.png" alt="back-arrow"
+            onclick="window.location.href = 'cart.html'">
+</body>
+
+</html>
